@@ -47,13 +47,16 @@ def send_message(token, chat_id):
 def connect():
     try:
         # Connect to an existing database
-        conn = psycopg2.connect(
-            user="postgres",
-            password="47468180K.",
-            host="localhost",
-            port="5432",
-            database="postgres")
-        connection = conn
+        DATABASE_URL = os.environ.get('DATABASE_URL')
+        connection = psycopg2.connect(DATABASE_URL)
+
+        # conn = psycopg2.connect(
+        #     user="postgres",
+        #     password="47468180K.",
+        #     host="localhost",
+        #     port="5432",
+        #     database="postgres")
+        # connection = conn
 
         connection.autocommit = True
 
