@@ -90,5 +90,3 @@ def connect():
             cursor.close()
             connection.close()
             print("PostgreSQL connection is closed")
-
-connect()
