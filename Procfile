@@ -1,0 +1,1 @@
+app: python3 scrapping_test.py
