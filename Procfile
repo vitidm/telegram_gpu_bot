@@ -1,1 +1,1 @@
-bot: python3 schedule.py
+bot: python3 schedule1.py

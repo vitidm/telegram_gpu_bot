@@ -52,7 +52,7 @@ def connect():
 
         conn = psycopg2.connect(
             user="ibvqhpzxrcovsc",
-            password="153004037d5e3e3238451ec4ec6c87dc78fda17838a5dcc4695de1d122e9146f.",
+            password="153004037d5e3e3238451ec4ec6c87dc78fda17838a5dcc4695de1d122e9146f",
             host="ec2-3-220-214-162.compute-1.amazonaws.com",
             port="5432",
             database="d9l22mp3132eec")
