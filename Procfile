@@ -1,1 +1,1 @@
-app: python3 scrapping_test.py
+bot: python3 schedule.py
