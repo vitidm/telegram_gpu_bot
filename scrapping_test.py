@@ -60,6 +60,7 @@ def connect():
 
         connection.autocommit = True
 
+
         # Create a cursor to perform database operations
         cursor = connection.cursor()
         # Print PostgreSQL details
