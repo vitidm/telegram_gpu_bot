@@ -12,12 +12,12 @@ link_class = "cat-title"
 TOKEN = "2014148400:AAES9zceUvpgB-pfxQ6nr9JY1VQuLrWvwnk"
 BOT_ID = "275628413"
 
-conn = psycopg2.connect(
-    user="postgres",
-    password="47468180K.",
-    host="localhost",
-    port="5432",
-    database="postgres")
+# conn = psycopg2.connect(
+#     user="postgres",
+#     password="47468180K.",
+#     host="localhost",
+#     port="5432",
+#     database="postgres")
 
 def crawling(website_link, link_class):
     # get content of website and parse it
@@ -59,7 +59,7 @@ def connect():
         connection = conn
 
         connection.autocommit = True
-        
+
         # Create a cursor to perform database operations
         cursor = connection.cursor()
         # Print PostgreSQL details
