@@ -1,5 +1,5 @@
 import schedule
-from scrapping_test_pruebas import connect
+from scrapping_test import connect
 import datetime
 import time
 
